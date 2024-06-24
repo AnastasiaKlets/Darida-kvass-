@@ -100,6 +100,58 @@
   transition: 0.5s;
 }
 
+.offers {
+  background: #9E561E;
+}
+.offers_container {
+  position: relative;
+}
+.offers_container > img {
+  position: absolute;
+  bottom: 2.65%;
+  left: 7.18%;
+  width: 18.48%;
+}
+.offers_wrapper {
+  overflow: hidden;
+}
+.offers_field {
+  display: flex;
+}
+.offers_slide {
+  position: relative;
+}
+.offers_slide img {
+  width: 100%;
+}
+.offers_slide .title {
+  position: absolute;
+  top: 2.6%;
+  left: 6.04%;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+}
+.offers_slide .title span {
+  color: #fff9b1;
+}
+.offers_indicators {
+  position: relative;
+  top: -51px;
+  display: flex;
+  justify-content: center;
+  gap: 0.4%;
+}
+.offers_dot {
+  width: 5.57%;
+  height: 6px;
+  background: #65402a;
+  cursor: pointer;
+}
+.offers_active {
+  background: #dcc890;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -773,6 +825,34 @@ button {
   }
   .footer_wrapper_line {
     display: none;
+  }
+}
+@media (max-width: 992px) {
+  .offers_dot {
+    width: 5.57% !important;
+  }
+}
+@media (max-width: 480px) {
+  .offers_container > img {
+    bottom: 3.81%;
+    left: 7.22%;
+    width: 45.55%;
+  }
+  .offers_slide img {
+    min-height: 477px;
+    object-fit: cover;
+  }
+  .offers_slide .title {
+    top: 26.94%;
+    left: 6.66%;
+  }
+  .offers_indicators {
+    top: -15px;
+    gap: 2.22%;
+  }
+  .offers_dot {
+    width: 8.61% !important;
+    height: 2px;
   }
 }
 .hide {
