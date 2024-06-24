@@ -1,0 +1,72 @@
+.daridych{
+  background: linear-gradient(91deg, #1d0501 33.72%, #dc983e 100%);
+  position: relative;
+  z-index: 1;
+  &_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    &_img{
+      position: relative;
+      &_daridych{
+        position: relative;
+        bottom: -10px;
+        z-index: -1;
+      }
+      &_ellipse{
+        position: absolute;
+        z-index: -2;
+        right: -35%;
+        bottom: -22%;
+        width: 159%;
+        filter: blur(30px);
+      }
+    }
+    &_logo{
+      display: flex;
+      flex-direction: column;
+      gap: 34px;
+      width: 40%;
+      &_text{
+        width: 90%;
+        text-transform: uppercase;
+        color: #c49969;
+        span{
+          color: #fff9be;
+
+        }
+      }
+    }
+  }
+  &_after{
+    background: url("../../icons/backgraund.svg") no-repeat;
+    height: 181px;
+    background-size: cover;
+    display: flex;
+    &_bochka{
+
+      &_textBochka{
+        animation: 8s linear 0s normal none infinite running rot;
+        -webkit-animation: 8s linear 0s normal none infinite running rot;
+      }
+    }
+  }
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

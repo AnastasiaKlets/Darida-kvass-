@@ -1,5 +1,5 @@
 @import 'base/fonts';
-
+@import "blocks/card";
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -26,11 +26,9 @@ a {
 button{
   cursor: pointer;
 }
-body{
-  background: #f6f7f8;
-}
 @import "blocks/title";
 @import "blocks/button";
 @import 'blocks/header';
+@import "blocks/daridych";
 @import "blocks/footer";
 @import 'media/general';

@@ -26,6 +26,80 @@
   font-weight: 800;
   font-style: normal;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0;
+  gap: 44px;
+  background: #9e561e;
+}
+.card h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.card h2 span {
+  color: #fff9be;
+}
+
+.card-container {
+  width: 98%;
+  height: 429px;
+  display: flex;
+  gap: 9.7px;
+}
+
+.cards {
+  position: relative;
+  left: 0;
+  border: 2px solid #fffbc5;
+  width: 80px;
+  transition: 0.5s all;
+  flex: 1;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.cards_text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.65);
+  height: 212px;
+  padding: 19px;
+  top: 83%;
+  transition: 0.5s;
+}
+.cards_text_text {
+  color: #fff;
+  width: 580px;
+}
+.cards video {
+  width: 250%;
+  height: 100%;
+}
+
+.cards {
+  flex: 1;
+  cursor: pointer;
+}
+
+.cards:hover {
+  flex: 2;
+}
+
+.cards:hover .cards_text {
+  top: 50%;
+  transition: 0.5s;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -51,10 +125,6 @@ a {
 
 button {
   cursor: pointer;
-}
-
-body {
-  background: #f6f7f8;
 }
 
 .title {
@@ -223,6 +293,74 @@ body {
   display: none;
 }
 
+.daridych {
+  background: linear-gradient(91deg, #1d0501 33.72%, #dc983e 100%);
+  position: relative;
+  z-index: 1;
+}
+.daridych_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.daridych_wrapper_img {
+  position: relative;
+}
+.daridych_wrapper_img_daridych {
+  position: relative;
+  bottom: -10px;
+  z-index: -1;
+}
+.daridych_wrapper_img_ellipse {
+  position: absolute;
+  z-index: -2;
+  right: -35%;
+  bottom: -22%;
+  width: 159%;
+  filter: blur(30px);
+}
+.daridych_wrapper_logo {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  width: 40%;
+}
+.daridych_wrapper_logo_text {
+  width: 90%;
+  text-transform: uppercase;
+  color: #c49969;
+}
+.daridych_wrapper_logo_text span {
+  color: #fff9be;
+}
+.daridych_after {
+  background: url("../../icons/backgraund.svg") no-repeat;
+  height: 181px;
+  background-size: cover;
+  display: flex;
+}
+.daridych_after_bochka_textBochka {
+  animation: 8s linear 0s normal none infinite running rot;
+  -webkit-animation: 8s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .footer {
   background: #9E561E;
 }
