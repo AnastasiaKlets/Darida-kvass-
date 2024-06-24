@@ -1,0 +1,51 @@
+.offers {
+    background: #9E561E;
+    &_container {
+        position: relative;
+        & > img {
+            position: absolute;
+            bottom: 2.65%;
+            left: 7.18%;
+            width: 18.48%;
+        }
+    }
+    &_wrapper {
+        overflow: hidden;
+    }
+    &_field {
+        display: flex;
+    }
+    &_slide {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .title {
+            position: absolute;
+            top: 2.6%;
+            left: 6.04%;
+            color: #fff;
+            text-transform: uppercase;
+            text-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+            span {
+                color: #fff9b1;
+            }
+        }
+    }
+    &_indicators {
+        position: relative;
+        top: -51px;
+        display: flex;
+        justify-content: center;
+        gap: 0.4%;
+    }
+    &_dot {
+        width: 5.57%;
+        height: 6px;
+        background: #65402a;
+        cursor: pointer;
+    }
+    &_active {
+        background: #dcc890;
+    }
+}
