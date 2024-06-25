@@ -78,3 +78,17 @@
     transform: rotate(360deg);
   }
 }
+
+.daridych_wrapper_logo{
+  position: relative;
+  animation: daridychAnim 1s forwards;
+}
+
+@keyframes daridychAnim {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

@@ -27,6 +27,11 @@ a {
 button{
   cursor: pointer;
 }
+main{
+  position: relative;
+  overflow: hidden;
+}
+
 @import "blocks/title";
 @import "blocks/button";
 @import "blocks/light";

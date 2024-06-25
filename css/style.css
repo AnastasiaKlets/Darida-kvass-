@@ -83,7 +83,7 @@
 }
 .cards video {
   width: 250%;
-  height: 100%;
+  height: 144%;
 }
 
 .cards {
@@ -179,6 +179,11 @@ button {
   cursor: pointer;
 }
 
+main {
+  position: relative;
+  overflow: hidden;
+}
+
 .title {
   color: #FFF9BE;
   font-weight: 500;
@@ -257,6 +262,7 @@ button {
   align-items: center;
   justify-content: space-evenly;
   background: linear-gradient(90deg, #280c01 0%, #4d2000 56.28%, #cf8b2b 100%);
+  overflow: hidden;
 }
 .light_text {
   display: flex;
@@ -306,6 +312,109 @@ button {
   text-align: start;
 }
 
+.square-animation {
+  position: relative;
+  animation: wipe-enter 2s 1;
+}
+
+@keyframes wipe-enter {
+  0% {
+    top: 10%;
+    right: -100%;
+    transform: rotate(85deg);
+  }
+  25% {
+    right: -50%;
+    transform: rotate(45deg);
+  }
+  50% {
+    right: 10%;
+    transform: rotate(15deg);
+  }
+  50% {
+    right: 0;
+    transform: rotate(0deg);
+  }
+}
+.square-animation2 {
+  position: relative;
+  animation: wipe-enter2 2s 1;
+  z-index: 1;
+}
+
+@keyframes wipe-enter2 {
+  0% {
+    top: 10%;
+    left: -100%;
+    transform: rotate(-85deg);
+  }
+  25% {
+    left: -50%;
+    transform: rotate(-45deg);
+  }
+  50% {
+    left: 10%;
+    transform: rotate(-15deg);
+  }
+  50% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+}
+.backgraundButl {
+  position: absolute;
+  top: 17%;
+  left: 44%;
+}
+
+.backgraundButl2 {
+  position: absolute;
+  top: 39%;
+  left: -8%;
+}
+
+.backgraundButl_animation {
+  animation: wipe-enter3 3s 1;
+}
+
+@keyframes wipe-enter3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.backgraundButl_animation2 {
+  animation: wipe-enter3 3s 1;
+}
+
+@keyframes wipe-enter4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.light_text_anim {
+  position: relative;
+  animation: textAnim 3s 1;
+}
+
+.dark_text_anim {
+  position: relative;
+  animation: textAnim 3s 1;
+}
+
+@keyframes textAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .daridych {
   background: linear-gradient(91deg, #1d0501 33.72%, #dc983e 100%);
   position: relative;
@@ -383,6 +492,19 @@ button {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+.daridych_wrapper_logo {
+  position: relative;
+  animation: daridychAnim 1s forwards;
+}
+
+@keyframes daridychAnim {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }
 .footer {
