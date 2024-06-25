@@ -1,0 +1,53 @@
+.light{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #280c01 0%, #4d2000 56.28%, #cf8b2b 100%);
+
+  &_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 35%;
+    gap: 26px;
+    span{
+      text-align: end;
+    }
+    svg{
+      width: 83%;
+      margin-bottom: 32px;
+    }
+    &_btn{
+      border: 3px solid #fff9be;
+      border-radius: 20px;
+      height: 80px;
+      background: none;
+      width: 35%;
+    }
+    &_btn:hover{
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+      background: #fff9be;
+      border: 3px solid #fff9be;
+      border-radius: 20px;
+      color: #7a4d14;
+    }
+  }
+  &_img{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 70%;
+    }
+  }
+}
+.dark{
+  background: linear-gradient(90deg, #cf8b2b 43.38%, #280c01 100%);
+  &_text{
+    align-items: flex-start;
+    span{
+      text-align: start;
+    }
+  }
+}

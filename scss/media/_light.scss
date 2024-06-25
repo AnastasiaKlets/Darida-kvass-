@@ -1,0 +1,145 @@
+@media (max-width:1750px) {
+  .light{
+    &_text{
+      width: 43%;
+      gap: 26px;
+      svg{
+        width: 83%;
+        margin-bottom: 32px;
+      }
+      &_btn{
+        height: 80px;
+      }
+    }
+    &_img{
+      width: 43%;
+      img{
+        width: 60%;
+      }
+    }
+  }
+}
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+  .light{
+    &_text{
+      width: 43%;
+      gap: 20px;
+      svg{
+        width: 83%;
+        margin-bottom: 12px;
+      }
+      &_btn{
+        height: 60px;
+      }
+    }
+    &_img{
+      width: 43%;
+      img{
+        width: 60%;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+  .light{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    background: linear-gradient(0deg, #280c01 0%, #4d2000 56.28%, #cf8b2b 100%);
+    &_line{
+      display: none;
+    }
+    padding: 28px 0;
+    &_text{
+      width: 90%;
+      gap: 10px;
+      align-items: flex-start;
+      span{
+        text-align: start;
+      }
+      svg{
+        width: 100%;
+        margin-bottom: 0;
+      }
+      &_btn{
+        margin-top: 15px;
+        border-radius: 10px;
+        height: 40px;
+        width:40%;
+      }
+      &_btn:hover{
+        border-radius: 10px;
+      }
+    }
+    &_img{
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 70%;
+      }
+    }
+  }
+  .dark{
+    background: linear-gradient(0deg, #280c01 0%, #4d2000 56.28%, #cf8b2b 100%);
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .light{
+    padding: 28px 0;
+    &_text{
+      width: 90%;
+      gap: 10px;
+      svg{
+        width: 100%;
+      }
+      &_btn{
+        margin-top: 15px;
+        border-radius: 10px;
+        height: 40px;
+        width:40%;
+      }
+    }
+    &_img{
+      width: 40%;
+      img{
+        width: 70%;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .light{
+    padding: 28px 0;
+    &_text{
+      width: 90%;
+      gap: 10px;
+      svg{
+        width: 100%;
+      }
+      &_btn{
+        margin-top: 15px;
+        border-radius: 10px;
+        height: 40px;
+        width:40%;
+      }
+    }
+    &_img{
+      width: 60%;
+      img{
+        width: 70%;
+      }
+    }
+  }
+}
+
+

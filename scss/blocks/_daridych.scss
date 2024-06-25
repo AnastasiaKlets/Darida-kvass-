@@ -44,11 +44,19 @@
     height: 181px;
     background-size: cover;
     display: flex;
+    position: relative;
     &_bochka{
-
+      position: absolute;
+      left: 9%;
+      top: -34%;
       &_textBochka{
-        animation: 8s linear 0s normal none infinite running rot;
-        -webkit-animation: 8s linear 0s normal none infinite running rot;
+        animation: 18s linear 0s normal none infinite running rot;
+        -webkit-animation: 18s linear 0s normal none infinite running rot;
+      }
+      &_bochka{
+        position: absolute;
+        right: 13%;
+        top: 13%;
       }
     }
   }

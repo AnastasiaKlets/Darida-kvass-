@@ -18,15 +18,12 @@
     }
 }
 @media (max-width: 768px) {
-
-}
-@media (max-width: 480px) {
     .offers {
         &_container {
             & > img {
-                bottom: 3.81%;
+                bottom: 5.81%;
                 left: 7.22%;
-                width: 45.55%;
+                width: 37.55%;
             }
         }
         &_slide {
@@ -35,7 +32,7 @@
                 object-fit: cover;
             }
             .title {
-                top: 26.94%;
+                top: 14.94%;
                 left: 6.66%;
             }
         }
@@ -48,4 +45,7 @@
             height: 2px;
         }
     }
+}
+@media (max-width: 480px) {
+
 }
