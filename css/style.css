@@ -179,7 +179,7 @@
 
 .square-animation3 {
   position: relative;
-  animation: wipe-enter30 4s infinite;
+  animation: wipe-enter30 4s 1;
   z-index: 1;
 }
 
@@ -187,14 +187,14 @@
   0% {
     top: 10%;
     left: -100%;
-    transform: rotate(-85deg);
+    transform: rotate(-45deg);
   }
   25% {
     left: -50%;
-    transform: rotate(-45deg);
+    transform: rotate(-25deg);
   }
   50% {
-    left: 10%;
+    left: 8%;
     transform: rotate(0deg);
   }
 }
@@ -360,7 +360,7 @@ main {
 
 .square-animation {
   position: relative;
-  animation: wipe-enter 6s 1;
+  animation: wipe-enter 4.5s 1;
 }
 
 @keyframes wipe-enter {
@@ -384,7 +384,7 @@ main {
 }
 .square-animation2 {
   position: relative;
-  animation: wipe-enter2 6s 1;
+  animation: wipe-enter2 4.5s 1;
   z-index: 1;
 }
 
@@ -445,12 +445,12 @@ main {
 }
 .light_text_anim {
   position: relative;
-  animation: textAnim 5s 1;
+  animation: textAnim 4s 1;
 }
 
 .dark_text_anim {
   position: relative;
-  animation: textAnim 5s 1;
+  animation: textAnim 4s 1;
 }
 
 @keyframes textAnim {
@@ -503,7 +503,6 @@ main {
   color: #fff9be;
 }
 .daridych_after {
-  background: url("../../icons/backgraund.svg") no-repeat;
   height: 181px;
   background-size: cover;
   display: flex;
@@ -523,6 +522,23 @@ main {
   right: 13%;
   top: 13%;
 }
+.daridych_after_colos_text {
+  display: flex;
+  gap: 35px;
+  position: absolute;
+  top: -85%;
+  right: -35%;
+  left: 50%;
+  align-items: center;
+}
+.daridych_after_colos_text span {
+  width: 35%;
+  line-height: 1;
+  font-size: 40px;
+}
+.daridych_after_colos_text img {
+  width: 28%;
+}
 
 @keyframes rot {
   0% {
@@ -532,15 +548,7 @@ main {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes rot {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.daridych_wrapper_logo {
+.daridych_wrapper_logo img {
   position: relative;
   animation: daridychAnim 1s forwards;
 }
@@ -553,12 +561,41 @@ main {
     transform: translateX(0%);
   }
 }
+.daridych_wrapper_logo_text {
+  position: relative;
+  animation: daridychAnim5 1.3s forwards;
+}
+
+@keyframes daridychAnim5 {
+  0% {
+    transform: translateX(-150%);
+  }
+  50% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 .daridych_wrapper_img_daridych {
   position: relative;
   animation: daridychAnim1 1s forwards;
 }
 
 @keyframes daridychAnim1 {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.daridych_after_colos_text {
+  position: relative;
+  animation: daridychAnim3 1s forwards;
+}
+
+@keyframes daridychAnim3 {
   0% {
     transform: translateX(150%);
   }
@@ -934,6 +971,140 @@ main {
   .card-container {
     display: none;
   }
+  .line {
+    top: 60%;
+    width: 300%;
+  }
+  .line2 {
+    top: 74.3%;
+    z-index: 1;
+    width: 300%;
+  }
+  .line3 {
+    top: 92.5%;
+    width: 300%;
+  }
+  .square-animation {
+    animation: wipe-enter 2s 1;
+  }
+  .square-animation2 {
+    animation: wipe-enter2 2s 1;
+  }
+}
+@media (max-width: 1680px) {
+  .daridych_wrapper_logo {
+    gap: 34px;
+    width: 40%;
+  }
+  .daridych_wrapper_logo_text {
+    width: 90%;
+  }
+  .daridych_after {
+    height: 181px;
+  }
+  .daridych_after_bochka {
+    left: 9%;
+    top: -34%;
+  }
+  .daridych_after_bochka_bochka {
+    position: absolute;
+    right: 13%;
+    top: 13%;
+  }
+  .daridych_after_colos_text {
+    gap: 35px;
+    top: -85%;
+    left: 43%;
+    right: -35%;
+  }
+  .daridych_after_colos_text span {
+    width: 35%;
+    line-height: 1;
+    font-size: 40px;
+  }
+}
+@media (max-width: 1550px) {
+  .daridych_after_colos_text {
+    gap: 35px;
+    top: -85%;
+    left: 37%;
+    right: -35%;
+  }
+  .daridych_after_colos_text span {
+    width: 35%;
+    line-height: 1;
+    font-size: 40px;
+  }
+}
+@media (max-width: 1422px) {
+  .daridych_after_colos_text {
+    gap: 35px;
+    top: -85%;
+    left: 33%;
+    right: -35%;
+  }
+  .daridych_after_colos_text span {
+    width: 25%;
+    line-height: 1;
+    font-size: 35px;
+  }
+}
+@media (max-width: 1260px) {
+  .daridych_after_colos_text {
+    gap: 35px;
+    top: -85%;
+    left: 33%;
+    right: -35%;
+  }
+  .daridych_after_colos_text span {
+    width: 20%;
+    font-size: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .daridych_after_colos_text {
+    gap: 0;
+    top: -85%;
+    left: 31%;
+    right: -35%;
+  }
+  .daridych_after_colos_text span {
+    width: 20%;
+    font-size: 30px;
+  }
+  .daridych_after_colos_text img {
+    width: 22%;
+  }
+}
+@media (max-width: 1125px) {
+  .daridych_after_colos_text {
+    gap: 0;
+    top: -85%;
+    left: 27%;
+    right: -35%;
+  }
+  .daridych_after_colos_text span {
+    width: 20%;
+    font-size: 30px;
+  }
+  .daridych_after_colos_text img {
+    width: 22%;
+  }
+}
+@media (max-width: 1125px) {
+  .daridych_after_colos_text {
+    gap: 0;
+    top: -80%;
+    left: 25%;
+    right: -35%;
+  }
+  .daridych_after_colos_text span {
+    width: 20%;
+    font-size: 30px;
+  }
+  .daridych_after_colos_text img {
+    width: 22%;
+  }
 }
 @media (max-width: 992px) {
   .daridych {
@@ -984,7 +1155,8 @@ main {
   }
   .offers_slide img {
     min-height: 477px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .offers_slide .title {
     top: 14.94%;
@@ -1146,6 +1318,8 @@ main {
     display: inline;
     background: #9E561E;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 10;
   }
   .offers_slide {
     display: flex;
@@ -1168,12 +1342,14 @@ main {
   .offers_slide_cards video {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   .offers_slide_cards img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   .offers_slide_cards_text {
     display: flex;
@@ -1181,6 +1357,7 @@ main {
     align-items: center;
     gap: 3px;
     width: 312px;
+    height: -moz-fit-content;
     height: fit-content;
     padding: 10px 0;
     background: rgba(0, 0, 0, 0.65);
@@ -1231,6 +1408,4 @@ main {
     width: 37px;
     height: 37px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

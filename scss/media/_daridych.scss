@@ -1,14 +1,167 @@
-@media (max-width:1750px) {
-
+@media (max-width:1680px) {
+  .daridych{
+    &_wrapper{
+      &_logo{
+        gap: 34px;
+        width: 40%;
+        &_text{
+          width: 90%;
+        }
+      }
+    }
+    &_after{
+      height: 181px;
+      &_bochka{
+        left: 9%;
+        top: -34%;
+        
+        &_bochka{
+          position: absolute;
+          right: 13%;
+          top: 13%;
+        }
+      }
+      &_colos{
+        
+        &_text{
+          gap: 35px;
+          top: -85%;
+          left: 43%;
+          right: -35%;
+          span{
+            width: 35%;
+            line-height: 1;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+  
+  
 }
-@media (max-width:1600px) {
-
+@media (max-width:1550px) {
+  .daridych{  
+  &_after{
+      &_colos{
+        
+        &_text{
+          gap: 35px;
+          top: -85%;
+          left: 37%;
+          right: -35%;
+          span{
+            width: 35%;
+            line-height: 1;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
 }
-@media (max-width:1440px) {
 
+@media (max-width:1422px) {
+  .daridych{  
+    &_after{
+        &_colos{
+          
+          &_text{
+            gap: 35px;
+            top: -85%;
+            left: 33%;
+            right: -35%;
+            span{
+              width: 25%;
+              line-height: 1;
+              font-size: 35px;
+            }
+          }
+        }
+      }
+    }
+}
+@media (max-width: 1260px) {
+  .daridych{  
+    &_after{
+        &_colos{
+          
+          &_text{
+            gap: 35px;
+            top: -85%;
+            left: 33%;
+            right: -35%;
+            span{
+              width: 20%;
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
 }
 @media (max-width: 1200px) {
-
+  .daridych{  
+    &_after{
+        &_colos{
+          &_text{
+            gap: 0;
+            top: -85%;
+            left: 31%;
+            right: -35%;
+            span{
+              width: 20%;
+              font-size: 30px;
+            }
+            img{
+            width: 22%;
+          }
+        }
+      }
+    }
+}
+}
+@media (max-width: 1125px) {
+  .daridych{  
+    &_after{
+        &_colos{
+          &_text{
+            gap: 0;
+            top: -85%;
+            left: 27%;
+            right: -35%;
+            span{
+              width: 20%;
+              font-size: 30px;
+            }
+            img{
+            width: 22%;
+          }
+        }
+      }
+    }
+}
+}
+@media (max-width: 1125px) {
+  .daridych{  
+    &_after{
+        &_colos{
+          &_text{
+            gap: 0;
+            top: -80%;
+            left: 25%;
+            right: -35%;
+            span{
+              width: 20%;
+              font-size: 30px;
+            }
+            img{
+            width: 22%;
+          }
+        }
+      }
+    }
+}
 }
 @media (max-width: 992px) {
   .daridych{

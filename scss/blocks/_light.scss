@@ -55,7 +55,7 @@
 
 .square-animation {
   position: relative;
-  animation: wipe-enter 6s 1
+  animation: wipe-enter 4.5s 1
 }
 @keyframes wipe-enter {
   0% {
@@ -79,7 +79,7 @@
 
 .square-animation2 {
   position: relative;
-  animation:  wipe-enter2 6s 1;
+  animation:  wipe-enter2 4.5s 1;
   z-index: 1;
 }
 @keyframes wipe-enter2 {
@@ -135,11 +135,11 @@
 }
 .light_text_anim{
   position: relative;
-  animation: textAnim 5s 1;
+  animation: textAnim 4s 1;
 }
 .dark_text_anim{
   position: relative;
-  animation: textAnim 5s 1;
+  animation: textAnim 4s 1;
 }
 
 @keyframes textAnim {

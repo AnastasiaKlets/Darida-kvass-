@@ -40,7 +40,6 @@
     }
   }
   &_after{
-    background: url("../../icons/backgraund.svg") no-repeat;
     height: 181px;
     background-size: cover;
     display: flex;
@@ -57,6 +56,26 @@
         position: absolute;
         right: 13%;
         top: 13%;
+      }
+    }
+    &_colos{
+      
+      &_text{
+        display: flex;
+        gap: 35px;
+        position: absolute;
+        top: -85%;
+        right: -35%;
+        left: 50%;
+        align-items:center;
+        span{
+          width: 35%;
+          line-height: 1;
+          font-size: 40px;
+        }
+        img{
+          width: 28%;
+        }
       }
     }
   }
@@ -80,12 +99,30 @@
 }
 
 .daridych_wrapper_logo{
-  position: relative;
-  animation: daridychAnim 1s forwards;
+  img{
+    position: relative;
+    animation: daridychAnim 1s forwards;
+  }
 }
 
 @keyframes daridychAnim {
   0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.daridych_wrapper_logo_text{
+  position: relative;
+  animation: daridychAnim5 1.3s forwards;
+}
+
+@keyframes daridychAnim5 {
+  0% {
+    transform: translateX(-150%);
+  }
+  50% {
     transform: translateX(-150%);
   }
   100% {
@@ -98,6 +135,20 @@
 }
 
 @keyframes daridychAnim1 {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.daridych_after_colos_text{
+  position: relative;
+  animation: daridychAnim3 1s forwards;
+}
+
+@keyframes daridychAnim3 {
   0% {
     transform: translateX(150%);
   }

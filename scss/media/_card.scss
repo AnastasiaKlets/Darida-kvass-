@@ -125,6 +125,25 @@
   .card-container{
     display: none;
   }
+  .line {
+    top: 60%;
+    width: 300%;
+}
+.line2 {
+  top: 74.3%;
+  z-index: 1;
+  width: 300%;
+}
+.line3 {
+  top: 92.5%;
+  width: 300%;
+}
+.square-animation {
+  animation: wipe-enter 2s 1
+}
+.square-animation2 {
+  animation:  wipe-enter2 2s 1;
+}
 }
 @media (max-width: 768px) {
 

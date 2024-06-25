@@ -12,6 +12,8 @@
     display: inline;
     background: #9E561E;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 10;
   }
   .offers_slide{
     display: flex;
