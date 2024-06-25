@@ -54,7 +54,7 @@
 }
 .square-animation3 {
     position: relative;
-    animation:  wipe-enter30 2s 1;
+    animation:  wipe-enter30 4s infinite;
     z-index: 1;
 }
 @keyframes wipe-enter30 {
@@ -69,10 +69,6 @@
     }
     50% {
         left: 10%;
-        transform: rotate(-15deg);
-    }
-    50% {
-        left: 0;
         transform: rotate(0deg);
     }
 }

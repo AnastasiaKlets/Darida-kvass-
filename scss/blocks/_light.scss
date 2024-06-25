@@ -55,7 +55,7 @@
 
 .square-animation {
   position: relative;
-  animation: wipe-enter 2s 1
+  animation: wipe-enter 6s 1
 }
 @keyframes wipe-enter {
   0% {
@@ -79,7 +79,7 @@
 
 .square-animation2 {
   position: relative;
-  animation:  wipe-enter2 2s 1;
+  animation:  wipe-enter2 6s 1;
   z-index: 1;
 }
 @keyframes wipe-enter2 {
@@ -112,7 +112,7 @@
   left: -8%;
 }
 .backgraundButl_animation{
-  animation:  wipe-enter3 3s 1;
+  animation:  wipe-enter3 5s 1;
 }
 @keyframes wipe-enter3 {
   0% {
@@ -123,7 +123,7 @@
   }
 }
 .backgraundButl_animation2{
-  animation:  wipe-enter3 3s 1;
+  animation:  wipe-enter3 5s 1;
 }
 @keyframes wipe-enter4 {
   0% {
@@ -135,11 +135,11 @@
 }
 .light_text_anim{
   position: relative;
-  animation: textAnim 3s 1;
+  animation: textAnim 5s 1;
 }
 .dark_text_anim{
   position: relative;
-  animation: textAnim 3s 1;
+  animation: textAnim 5s 1;
 }
 
 @keyframes textAnim {
