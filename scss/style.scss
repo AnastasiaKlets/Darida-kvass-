@@ -11,10 +11,13 @@
 
 }
 .container {
-  max-width: 1761px;
-  width: 91.72%;
+  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 
+}
+body{
+  background: linear-gradient(91deg, #1d0501 33.72%, #dc983e 100%);
 }
 a {
   color: #000;
@@ -30,6 +33,7 @@ button{
 main{
   position: relative;
   overflow: hidden;
+
 }
 
 @import "blocks/title";
@@ -37,4 +41,5 @@ main{
 @import "blocks/light";
 @import "blocks/daridych";
 @import "blocks/footer";
+@import "blocks/cardSlider";
 @import 'media/general';

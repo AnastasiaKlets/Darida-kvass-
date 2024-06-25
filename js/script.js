@@ -10,10 +10,9 @@ if (document.querySelector('.offers_field') != null) {
         swipe: true,
     })
 }
-//для слайдера
 if (document.querySelector('.offers_field') != null) {
     slider({
-        containerSelector: '.offers_container',
+        containerSelector: '.offers_container.cardMob',
         slideSelector: '.offers_slide',
         wrapperSelector: '.offers_wrapper',
         fieldSelector: '.offers_field',
@@ -22,6 +21,7 @@ if (document.querySelector('.offers_field') != null) {
         swipe: true,
     })
 }
+
 //анимации
 (function () {
     let square = document.querySelector('.light_img');
@@ -96,12 +96,25 @@ if (document.querySelector('.offers_field') != null) {
             }
         });
     });
+    let square7 = document.querySelector('.bottles_offers');
+    let observer7 = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+                return;
+            }
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add('square-animation3');
+            }
+        });
+    });
     observer.observe(square);
     observer2.observe(square2);
     observer3.observe(square3);
     observer4.observe(square4);
     observer5.observe(square5);
     observer6.observe(square6);
+    observer7.observe(square7);
 })();
 
 

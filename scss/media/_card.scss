@@ -1,14 +1,125 @@
-@media (max-width:1750px) {
-
+@media (max-width:1810px) {
+  .line{
+    position: absolute;
+    z-index: 1;
+    top: 61%;
+  }
+  .line2{
+    position: absolute;
+    z-index: 1;
+    top: 74.5%;
+  }
+  .line3{
+    position: absolute;
+    z-index: 1;
+    top: 95.5%;
+  }
+}
+@media (max-width:1700px) {
+  .line{
+    position: absolute;
+    z-index: 1;
+    top: 61%;
+  }
+  .line2{
+    position: absolute;
+    z-index: 1;
+    top: 74.8%;
+  }
+  .line3{
+    position: absolute;
+    z-index: 1;
+    top: 95.5%;
+  }
+}
+@media (max-width:1652px) {
+  .line{
+    position: absolute;
+    z-index: 1;
+    top: 61%;
+  }
+  .line2{
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+  }
+  .line3{
+    position: absolute;
+    z-index: 1;
+    top: 95.5%;
+  }
 }
 @media (max-width:1600px) {
-
+  .line2{
+    top: 75.5%;
+  }
 }
-@media (max-width:1440px) {
-
+@media (max-width:1520px) {
+  .line2{
+    top: 75.8%;
+  }
+  .cards video {
+    width: 274%;
+    height: 113%;
+  }
+  .cards_text {
+    top: 85%;
+  }
 }
-@media (max-width: 1200px) {
+@media (max-width:1455px) {
+  .line2{
+    top: 76.5%;
+  }
+  .cards_text {
+    top: 85%;
+  }
+}
+@media (max-width:1350px) {
+  .line2{
+    top: 77%;
+  }
+  .cards video {
+    width: 374%;
+    height: 113%;
+  }
+  .daridych_wrapper_img{
+    width: 40%;
+  }
+  .daridych_wrapper_img_daridych{
 
+  }
+}
+@media (max-width:1290px) {
+  .line2{
+    top: 77.3%;
+  }
+}
+@media (max-width:1290px) {
+  .line2{
+    top: 77.7%;
+  }
+}
+@media (max-width:1195px) {
+  .line2{
+    top: 78.3%;
+  }
+  .line {
+    top: 62%;
+  }
+  .line3 {
+    top: 96%;
+  }
+  .cards_text {
+    top: 85%;
+  }
+  .card {
+    padding: 41px 0;
+    gap: 30px;
+  }
+  .backgraundButl2 {
+    top: 37%;
+    left: -44%;
+  }
 }
 @media (max-width: 992px) {
   .card-container{

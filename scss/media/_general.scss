@@ -4,6 +4,7 @@
 @import "daridych";
 @import "offers";
 @import "light";
+@import "cardSlider";
 
 .hide{
 	display: none;
@@ -23,8 +24,11 @@
 }
 
 @media (max-width: 768px) {
+  body{
+    background: none
+  }
     .container {
-        width: 86.94%;
+        width: 100%;
     }
     .pageUp {
       width: 37px;

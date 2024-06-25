@@ -86,9 +86,25 @@
 
 @keyframes daridychAnim {
   0% {
-    transform: translateY(-150%);
+    transform: translateX(-150%);
   }
   100% {
-    transform: translateY(0%);
+    transform: translateX(0%);
   }
+}
+.daridych_wrapper_img_daridych{
+  position: relative;
+  animation: daridychAnim1 1s forwards;
+}
+
+@keyframes daridychAnim1 {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.daridychMob{
+  display: none;
 }

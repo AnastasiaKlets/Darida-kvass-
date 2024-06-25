@@ -13,9 +13,12 @@
     <link rel="stylesheet" type="text/css" href="scss/jquery.fancybox.min.css">
 </head>
 <body>
-    <main>
+    <main class="container">
         <img src="img/backgraundButl.png" alt="backgraundButl" class="backgraundButl">
         <img src="img/backgraundButl.png" alt="backgraundButl" class="backgraundButl2">
+        <img src="icons/line.svg" alt="line" class="line">
+        <img src="icons/line.svg" alt="line" class="line2">
+        <img src="icons/line.svg" alt="line" class="line3">
         <section class="daridych">
             <div class="daridych_wrapper">
                 <div class="daridych_wrapper_logo">
@@ -45,7 +48,10 @@
                 </div>
             </div>
         </section>
-        <section class="daridychMob"></section>
+        <section class="daridychMob">
+            <img src="icons/ДаридычMob.svg" alt="Даридыч" class="daridychMob_men">
+            <img src="icons/logoMob.svg" alt="logo" class="daridychMob_logo"/>
+        </section>
         <section class="light">
             <div class="light_text">
                 <svg width="598" height="86" viewBox="0 0 598 86" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -232,32 +238,6 @@
                 <div class="cards">
                     <img src="img/изготовление.png">
                     <div class="cards_text">
-                        <span class="cards_text_title title title_32">Ингредиенты</span>
-                        <span class="cards_text_text title_20">
-                            Квасное сусло — второй по важности ингредиент кваса.
-                            Мы тщательно отбирали поставщиков сусла с разными
-                            комбинациями солода, чтобы сохранить традиционный
-                            вкус кваса и добавить уникальности напитку.
-                        </span>
-                    </div>
-                </div>
-                <div class="cards">
-                    <video autoplay="" loop="" muted="" playsinline="" controlslist="nodownload" class="video">
-                        <source src="video/зерна.mp4" type="video/mp4">
-                    </video>
-                    <div class="cards_text">
-                        <span class="cards_text_title title title_32">Рецептура</span>
-                        <span class="cards_text_text title_20">
-                            Чтобы предложить вам два вида кваса,
-                            мы разработали и протестировали более
-                            20 рецептур. В результате мы создали
-                            квас, которые точно придутся Вам по вкусу.
-                        </span>
-                    </div>
-                </div>
-                <div class="cards">
-                    <img src="img/девушки.png">
-                    <div class="cards_text">
                         <span class="cards_text_title title title_32">Опыт</span>
                         <span class="cards_text_text title_20">
                             Наши опытные технологи создали два
@@ -265,12 +245,26 @@
                             изюминку придаёт душа, которую вложили
                             в него наши спеуциалисты.
                         </span>
+
                     </div>
                 </div>
                 <div class="cards">
                     <video autoplay="" loop="" muted="" playsinline="" controlslist="nodownload" class="video">
-                        <source src="video/квас.mp4" type="video/mp4">
+                        <source src="video/зерна.mp4" type="video/mp4">
                     </video>
+                    <div class="cards_text">
+                        <span class="cards_text_title title title_32">Ингредиенты</span>
+                        <span class="cards_text_text title_20">
+                            Квасное сусло — второй по важности ингредиент кваса.
+                            Мы тщательно отбирали поставщиков сусла с разными
+                            комбинациями солода, чтобы сохранить традиционный
+                            вкус кваса и добавить уникальности напитку.
+                        </span>
+
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="img/девушки.png">
                     <div class="cards_text">
                         <span class="cards_text_title title title_32">Люди</span>
                         <span class="cards_text_text title_20">
@@ -281,13 +275,62 @@
                         </span>
                     </div>
                 </div>
+                <div class="cards">
+                    <video autoplay="" loop="" muted="" playsinline="" controlslist="nodownload" class="video">
+                        <source src="video/квас.mp4" type="video/mp4">
+                    </video>
+                    <div class="cards_text">
+                        <span class="cards_text_title title title_32">Рецептура</span>
+                        <span class="cards_text_text title_20">
+                            Чтобы предложить вам два вида кваса,
+                            мы разработали и протестировали более
+                            20 рецептур. В результате мы создали
+                            квас, которые точно придутся Вам по вкусу.
+                        </span>
+
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="cardMob">
+        <section class="offers card_slider">
+            <div class="offers_container">
+                <div class="offers_wrapper">
+                    <div class="offers_field">
+                        <div class="offers_slide">
+                            <div class="cards">
+                                <video autoplay="" loop="" muted="" playsinline="" controlslist="nodownload" class="video">
+                                    <source src="video/вода.mp4" type="video/mp4">
+                                </video>
+                                <div class="cards_text">
+                                    <span class="cards_text_title title title_32">Природная вода</span>
+                                    <span class="cards_text_text title_20">
+                                        Квас более чем на 90% состоит из воды,
+                                        поэтому мы тщательно подходим к её выбору.
+                                        Мы готовим квас только на нашей природной
+                                        воде, в то время как другие производители
+                                        могут использовать обычную водопроводную воду.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers_slide">
 
+                        </div>
+                        <div class="offers_slide">
+
+                        </div>
+                        <div class="offers_slide">
+
+                        </div>
+                        <div class="offers_slide">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="offers">
-            <div class="offers_container">
+            <div class="offers_container cardMob">
                 <div class="offers_wrapper">
                     <div class="offers_field">
                         <div class="offers_slide">
@@ -322,33 +365,34 @@
                         </div>
                     </div>
                 </div>
-                <img src="img/offers/bottles.png" alt="bottles">
+                <img src="img/offers/bottles.png" alt="bottles" class="bottles_offers">
             </div>
         </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_wrapper">
-                <a class="footer_wrapper_logo" href="https://darida.by/">
-                    <img src="icons/darida.svg" alt="logo_darida">
-                </a>
-                <div class="footer_wrapper_line"></div>
-                <div class="footer_wrapper_addr title title_24">
-                    Частное предприятие “Дарида”
-                    <br>
-                    Беларусь, 223028,
-                    <br>
-                    а.г. Ждановичи, ул. Линейная 1А.
-                </div>
-                <div class="footer_wrapper_line"></div>
-                <div class="footer_wrapper_inf title title_24">
-                    <a href="tel:+375175001616" class="title">Тел.:+375 17 500 16 16,</a>
-                    <a href="mailto:office@darida.by" class="title">e-mail: office@darida.by</a>
-                    <a href="https://darida.by/" class="title">www.darida.by</a>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <a class="footer_wrapper_logo" href="https://darida.by/">
+                        <img src="icons/darida.svg" alt="logo_darida">
+                    </a>
+                    <div class="footer_wrapper_line"></div>
+                    <div class="footer_wrapper_addr title title_24">
+                        Частное предприятие “Дарида”
+                        <br>
+                        Беларусь, 223028,
+                        <br>
+                        а.г. Ждановичи, ул. Линейная 1А.
+                    </div>
+                    <div class="footer_wrapper_line"></div>
+                    <div class="footer_wrapper_inf title title_24">
+                        <a href="tel:+375175001616" class="title">Тел.:+375 17 500 16 16,</a>
+                        <a href="mailto:office@darida.by" class="title">e-mail: office@darida.by</a>
+                        <a href="https://darida.by/" class="title">www.darida.by</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </main>
+
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/slider.js"></script>

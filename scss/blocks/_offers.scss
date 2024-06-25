@@ -1,7 +1,10 @@
 .offers {
     background: #9E561E;
+    position: relative;
+    z-index: 0;
     &_container {
         position: relative;
+
         & > img {
             position: absolute;
             bottom: 2.65%;
@@ -47,5 +50,29 @@
     }
     &_active {
         background: #dcc890;
+    }
+}
+.square-animation3 {
+    position: relative;
+    animation:  wipe-enter30 2s 1;
+    z-index: 1;
+}
+@keyframes wipe-enter30 {
+    0% {
+        top:10%;
+        left: -100%;
+        transform: rotate(-85deg);
+    }
+    25% {
+        left: -50%;
+        transform: rotate(-45deg);
+    }
+    50% {
+        left: 10%;
+        transform: rotate(-15deg);
+    }
+    50% {
+        left: 0;
+        transform: rotate(0deg);
     }
 }

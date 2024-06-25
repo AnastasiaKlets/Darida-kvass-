@@ -14,12 +14,35 @@
   .daridych{
     display: none;
   }
+  .daridychMob{
+    display: block;
+    position: relative;
+    background: linear-gradient(180deg, #1d0501 49.92%, #dc983e 100%);
+    &_logo{
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      width: 50%;
+      animation: wipe-enter10 3s 1;
+    }
+    &_men{
+      position: relative;
+      width: 100%;
+      top: 11px;
+    }
+  }
+  .backgraundButl{
+    display: none;
+  }
+  .backgraundButl2{
+    display: none;
+  }
 }
-@media (max-width: 768px) {
-
+@keyframes wipe-enter10 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@media (max-width: 480px) {
-
-}
-
-

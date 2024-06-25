@@ -5,6 +5,8 @@
   padding: 64px 0;
   gap: 44px;
   background: #9e561e;
+  position: relative;
+  z-index: 2;
 
   h2{
     display: flex;
@@ -69,4 +71,22 @@
 .cards:hover  .cards_text{
   top: 50%;
   transition: .5s;
+}
+.line{
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  width: 100%;
+}
+.line2{
+  position: absolute;
+  z-index: 1;
+  top: 73.5%;
+  width: 100%;
+}
+.line3{
+  position: absolute;
+  z-index: 1;
+  top: 95.5%;
+  width: 100%;
 }
