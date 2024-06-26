@@ -10,17 +10,14 @@
   //background: linear-gradient(90deg, #1d0501 33.72%, #dc983e 100%);
 
 }
-.container {
-  max-width: 1920px;
-  width: 100%;
-  margin: 0 auto;
-
-}
 
 a {
-  color: #000;
+  color: #fff9be;
   text-decoration: none;
   cursor: pointer;
+}
+a:hover {
+  color: #7a4d14;
 }
 .br {
   display: none;

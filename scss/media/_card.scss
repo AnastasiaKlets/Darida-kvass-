@@ -1,3 +1,44 @@
+@media (min-width: 2000px) {
+  .daridych_after_colos_line{
+    width: 100%;
+  }
+  .daridych_after_colos{
+    width: 100%;
+  }
+  .daridych_after_colos_text {
+    display: flex;
+    gap: 35px;
+    position: absolute;
+    top: 30%;
+        right: -35%;
+        left: 58%;
+    align-items: center;
+    .line {
+    position: absolute;
+    z-index: 1;
+    top: 61%;
+    width: 100%;
+}
+
+}
+.daridych_after_bochka {
+  position: absolute;
+  left: 14%;
+  top: -12%;
+}
+.line {
+  position: absolute;
+  z-index: 1;
+  top: 61%;
+  width: 100%;
+}
+.line2 {
+  position: absolute;
+  z-index: 1;
+  top: 71%;
+  width: 100%;
+}
+}
 @media (max-width:1810px) {
   .line{
     position: absolute;
@@ -85,9 +126,14 @@
   .daridych_wrapper_img{
     width: 40%;
   }
-  .daridych_wrapper_img_daridych{
-
-  }
+  .backgraundButl2 {
+    width: 67%;
+    top: 41%;
+}
+.backgraundButl {
+  width: 67%;
+  top: 21%;
+}
 }
 @media (max-width:1290px) {
   .line2{
@@ -98,20 +144,30 @@
   .line2{
     top: 77.7%;
   }
+
+  .card-container {
+    height: 320px;
+}
 }
 @media (max-width:1195px) {
   .line2{
     top: 78.3%;
   }
   .line {
-    top: 62%;
-  }
-  .line3 {
-    top: 96%;
-  }
+    top: 63.5%;
+}
+.line3 {
+  top: 95.7%;
+}
+.light_img img {
+  width: 63%;
+}
   .cards_text {
-    top: 85%;
+    top: 82%;
   }
+  .title_32 {
+    font-size: 20px;
+}
   .card {
     padding: 41px 0;
     gap: 30px;
@@ -126,7 +182,7 @@
     display: none;
   }
   .line {
-    top: 60%;
+    top: 61.5%;
     width: 300%;
 }
 .line2 {
